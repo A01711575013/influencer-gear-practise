@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 43px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.nav li {
+    display: inline-block;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 12px;
+}
+
+
+
+
+
+
+
+/* Media Quary  */
+@media screen and (max-width: 576px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+   
+}
