@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
 .header {
     max-width: 80%;
     margin: 0 auto;
@@ -19,6 +23,31 @@
     list-style: none;
     padding: 12px;
 }
+.banner {
+    display: flex;
+    padding-top: 80px;
+}
+.left-side {    
+    padding: 52px 1px 1px 1px;
+}
+.left-side p {
+    padding: 19px 0px;
+    font-size: 13px;
+}
+.btn {
+    padding: 5px 21px;
+    border-radius: 34px;
+    border: none;
+    background-color: #e02c6d;
+    color: white;
+    
+}
+.right-side img {
+    width: 350px;
+    margin-left: 211px;
+    border: 3px solid #f7f1ff;
+    border-radius: 50%;
+}
 
 
 
@@ -28,9 +57,25 @@
 
 /* Media Quary  */
 @media screen and (max-width: 576px) {
+    /* Navbar and banner quary start */
     .navbar {
         display: flex;
         flex-direction: column;
     }
-   
+    .banner {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .banner img {
+        margin-left: 0px;
+    }
+
+    .banner p {
+        font-size: 10px;
+    }
+    .header {
+        width: 90%;
+        
+    }
+      /* Navbar and banner quary end here */
 }
