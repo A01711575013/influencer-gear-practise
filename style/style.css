@@ -48,6 +48,26 @@
     border: 3px solid #f7f1ff;
     border-radius: 50%;
 }
+/* Main section start */
+.sponsor-logo {
+
+}
+.sponsor-logo {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid rgb(244, 241, 241);
+    padding: 12px;
+    margin-top: 70px;
+}
+
+
+
+
+
+
+/* Main section end */
 
 
 
@@ -76,6 +96,14 @@
     .header {
         width: 90%;
         
+    }
+    .sponsor-logo {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border: none;
+    }
+    .sponsor-logo img {
+        padding: 5px;
     }
       /* Navbar and banner quary end here */
 }
