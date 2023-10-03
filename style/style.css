@@ -135,6 +135,7 @@
     .banner {
         flex-direction: column-reverse;
         text-align: center;
+
     }
     .banner img {
         margin-left: 0px;
@@ -153,7 +154,8 @@
         border: none;
     }
     .sponsor-logo img {
-        padding: 5px;
+       width: 80%;
+       margin: 6px;
     }
     /* .popular-collection */
     .popular-collection {      
