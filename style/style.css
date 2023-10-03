@@ -126,7 +126,34 @@
     font-weight:140;
 }
 
+.feature {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 33px 7px 12px 12px;
+}
+.feature img {
+   width: 300px;
+}
+.feature-product {
+    margin-left: 54px;
+    padding: 9px;
+}
+.feature-product p {
+    font-size: 12px;
+    padding: 9px;
+  
+}
+.feature-product button {
+   margin: 9px;
+    padding: 4px 15px;
+    font-size: 12px;
+    background-color: rgba(224, 44, 109, 0.87);
+    border: none;
+    color: white;
 
+}
 
 
 
@@ -161,6 +188,9 @@
         width: 90%;
         
     }
+    /* Navbar and banner quary end here */
+
+      /* Main section start */
     .sponsor-logo {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -170,6 +200,8 @@
        width: 80%;
        margin: 6px;
     }
+     
+  
     /* .popular-collection */
     .popular-collection {      
         display: grid;
@@ -182,5 +214,17 @@
     .popular-collection-container .item-01 {
         margin-left: 5px;
     }
-      /* Navbar and banner quary end here */
+     
+    /* Product and Freature */
+      .feature {
+        display: flex;
+        flex-direction: column-reverse;        
+    }
+      .feature-product {
+        text-align: center; 
+        padding-right: 23px;      
+    }
+    .feature img {
+        margin-left: 23px;
+    }
 }
