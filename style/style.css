@@ -135,6 +135,7 @@
 }
 .feature img {
    width: 300px;
+   height: 200px;
 }
 .feature-product {
     margin-left: 54px;
@@ -240,14 +241,18 @@
     /* Product and Freature quary start*/
       .feature {
         display: flex;
-        flex-direction: column-reverse;        
+        flex-direction: column-reverse; 
+        width: 100%;       
     }
       .feature-product {
-        text-align: center; 
-        padding-right: 23px;      
+        text-align: center;        
+        margin-left: 14px;
+    }
+      .feature-product h2 {
+        font-size: 20px;
     }
     .feature img {
-        margin-left: 23px;
+        margin-left: 25px;
     }
      /* Product and Freature quary end */
      /* Footer qurary start */
