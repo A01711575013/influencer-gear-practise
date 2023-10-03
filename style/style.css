@@ -152,12 +152,34 @@
     background-color: rgba(224, 44, 109, 0.87);
     border: none;
     color: white;
-
+}
+/* Main section end */
+/* Footer section start */
+.footer {
+    width: 100%;
+    background-color: #0a0826;
+    color: white;
+    text-align: center;
+}
+.social-logo {
+    display: flex;
+    justify-content: center;
+    padding: 11px;  
+    margin: 2px 1px 1px 1px;  
+}
+.footer h1 {
+    padding: 19px 6px 19px 6px;    
+}
+.footer, h2, h3 {
+   font-size: 11px;    
+}
+.youtube, .twitter, .instagram, .instagram {
+    margin-right: 34px;
+    padding-bottom: 23px;
 }
 
 
-
-/* Main section end */
+/* Footer section End */
 
 
 
@@ -215,7 +237,7 @@
         margin-left: 5px;
     }
      
-    /* Product and Freature */
+    /* Product and Freature quary start*/
       .feature {
         display: flex;
         flex-direction: column-reverse;        
@@ -227,4 +249,9 @@
     .feature img {
         margin-left: 23px;
     }
+     /* Product and Freature quary end */
+     /* Footer qurary start */
+
+
+     /* Footer qurary end */
 }
